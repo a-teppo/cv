@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  /* font-family: 'Merriweather', serif; */
+}
+
+h1 {
+  color: #113f67;
+  font-size: 5rem;
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  /* font-family: 'Indie Flower', cursive; */
+}
+
+h2 {
+  color: #113f67;
+  font-size: 1.5rem;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border:dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 7%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 7%;
+}
+
+.profile {
+  width: 50%;
+  height: 20%;
+  margin: 50px auto;
+  line-height: 2;
+}
+
+.Antti_Teppo {
+  /* float:left; */
+  width: 20%;
+  height: 25%;
+  border-radius: 5%;
+}
+
+.skill-row1{
+  width: 60%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row2{
+  width: 60%;
+  margin:50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.programming {
+  margin: 7px 30px 5px 5px;
+  float: left;
+  width: 25%;
+  height: 25%;
+  border-radius: 5%;
+}
+
+.web_development {
+  margin: 10px 5px 5px 30px;
+  float: right;
+  width: 25%;
+  height: 25%;
+}
+
+.top-container {
+  background-color: #5588a3;
+  /* color: #113f67; */
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 15px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #38598b;
+  background-image: -webkit-linear-gradient(top, #38598b, #a2a8d3);
+  background-image: -moz-linear-gradient(top, #38598b, #a2a8d3);
+  background-image: -ms-linear-gradient(top, #38598b, #a2a8d3);
+  background-image: -o-linear-gradient(top, #38598b, #a2a8d3);
+  background-image: linear-gradient(to bottom, #38598b, #a2a8d3);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #a2a8d3;
+  background-image: -webkit-linear-gradient(top, #a2a8d3, #e7eaf6);
+  background-image: -moz-linear-gradient(top, #a2a8d3, #e7eaf6);
+  background-image: -ms-linear-gradient(top, #a2a8d3, #e7eaf6);
+  background-image: -o-linear-gradient(top, #a2a8d3, #e7eaf6);
+  background-image: linear-gradient(to bottom, #a2a8d3, #e7eaf6);
+  text-decoration: none;
+}
+
+.bottom-container {
+background-color: #00334e;
+color: #EAF6F6;
+padding: 25px 0 10px;
+font-size: 0.75em;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 0 2%;
+  text-decoration: none;
+  font-size: 1.75em;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
